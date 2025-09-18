@@ -1,0 +1,13 @@
+name = "MyFirstPackage"
+uuid = "80fd3c76-f75e-41c4-8516-6b2152ddb9ec"
+authors = ["Xiwei Pan"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.12"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
